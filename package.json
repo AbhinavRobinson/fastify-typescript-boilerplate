@@ -1,0 +1,30 @@
+{
+  "name": "fastify-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "fastify typescript backend boilerplate",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "nodejs",
+    "backend",
+    "typescript"
+  ],
+  "author": "Abhinav Robinson",
+  "license": "AGPL3",
+  "dependencies": {
+    "fastify": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.19",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
